@@ -3,9 +3,9 @@ import React from 'react';
 const QuickLink = () => {
   return (
     <section className="bg-white py-12 px-6 lg:px-12 text-center">
-      <button className="bg-black text-white px-4 py-2 rounded-md mb-4">
+      <h1 className="bg-blue-950 text-white px-4 py-2 rounded-md mb-4">
       Quick Links
-      </button>
+      </h1>
       <h1 className="text-4xl font-bold mb-4">
       Explore Our Resources
       </h1>

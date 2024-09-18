@@ -1,12 +1,12 @@
 import React from 'react';
 
+
 const StudentSuccess = () => {
   return (
     <section className="bg-gray-100 py-12 px-6 lg:px-12 text-center">
       {/* Success Button */}
-      <button className="bg-black text-white px-4 py-2 rounded-md mb-4">
-        Student Success
-      </button>
+   
+   
 
       {/* Heading */}
       <h1 className="text-4xl font-bold mb-4">
@@ -23,8 +23,12 @@ const StudentSuccess = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Testimonial 1 */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="bg-gray-300 rounded-full h-20 w-20 mx-auto mb-4"></div>
-          <h3 className="text-xl font-semibold">Samantha Doe</h3>
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.bysCjyPD6sPcGaVmErAsHgHaHx&pid=Api&P=0&h=180"
+            alt="Samantha Doe"
+            className="rounded-full h-20 w-20 mx-auto mb-4"
+          />
+          <h3 className="text-xl font-semibold">Mansi Birla</h3>
           <p className="text-gray-500 mb-4">Software Engineer, Google</p>
           <p className="text-sm text-gray-700">
             "The Training and Placement Cell provided me with the resources
@@ -35,8 +39,13 @@ const StudentSuccess = () => {
 
         {/* Testimonial 2 */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="bg-gray-300 rounded-full h-20 w-20 mx-auto mb-4"></div>
-          <h3 className="text-xl font-semibold">John Smith</h3>
+          <img
+
+             src="https://www.aquasafemine.com/wp-content/uploads/2018/06/dummy-woman-570x570.png"
+            alt="John Smith"
+            className="rounded-full h-20 w-20 mx-auto mb-4"
+          />
+          <h3 className="text-xl font-semibold">Priya Tripathi</h3>
           <p className="text-gray-500 mb-4">Product Manager, Amazon</p>
           <p className="text-sm text-gray-700">
             "The Training and Placement Cell helped me develop the skills and
@@ -47,8 +56,11 @@ const StudentSuccess = () => {
 
         {/* Testimonial 3 */}
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <div className="bg-gray-300 rounded-full h-20 w-20 mx-auto mb-4"></div>
-          <h3 className="text-xl font-semibold">Emily Johnson</h3>
+          <img             src="https://statinfer.com/wp-content/uploads/dummy-user.png"
+            alt="Emily Johnson"
+            className="rounded-full h-20 w-20 mx-auto mb-4"
+          />
+          <h3 className="text-xl font-semibold">vicky </h3>
           <p className="text-gray-500 mb-4">Data Analyst, Microsoft</p>
           <p className="text-sm text-gray-700">
             "The Training and Placement Cell's resources and workshops were
@@ -57,8 +69,6 @@ const StudentSuccess = () => {
           </p>
         </div>
       </div>
-
-    
     </section>
   );
 };

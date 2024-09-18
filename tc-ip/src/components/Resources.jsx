@@ -2,25 +2,35 @@ import React from 'react';
 
 function Resources() {
   return (
-    <section className="flex flex-col lg:flex-row justify-between mt-8 space-y-6 lg:space-y-0 lg:space-x-6">
-      <div className="bg-white p-6 shadow-md rounded-lg flex-1">
-        <h3 className="text-2xl font-bold mb-4">Resume Building</h3>
-        <p className="text-lg mb-4">
-          Access our resume-building resources to create a professional and impactful resume.
-        </p>
-        <div className="space-x-4">
-          <button className="bg-black text-white px-4 py-2 rounded-lg">Resume Templates</button>
-          <button className="bg-gray-200 text-black px-4 py-2 rounded-lg">Resume Tips</button>
+    <section className="bg-gradient-to-r from-white to-blue-50 p-8 shadow-lg rounded-2xl mt-8 max-w-8xl w-full mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="bg-white p-6 shadow-md rounded-lg">
+          <h3 className="text-2xl font-bold mb-4">Resume Building</h3>
+          <p className="text-lg mb-4">
+            Access our resume-building resources to create a professional and impactful resume.
+          </p>
+          <div className="space-x-4">
+            <button className="bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300">
+              Resume Templates
+            </button>
+            <button className="bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300">
+              Resume Tips
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="bg-white p-6 shadow-md rounded-lg flex-1">
-        <h3 className="text-2xl font-bold mb-4">Interview Preparation</h3>
-        <p className="text-lg mb-4">
-          Explore our comprehensive interview preparation resources to ace your next interview.
-        </p>
-        <div className="space-x-4">
-          <button className="bg-black text-white px-4 py-2 rounded-lg">Interview Tips</button>
-          <button className="bg-gray-200 text-black px-4 py-2 rounded-lg">Practice Questions</button>
+        <div className="bg-white p-6 shadow-md rounded-lg">
+          <h3 className="text-2xl font-bold mb-4">Interview Preparation</h3>
+          <p className="text-lg mb-4">
+            Explore our comprehensive interview preparation resources to ace your next interview.
+          </p>
+          <div className="space-x-4">
+            <button className="bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300">
+              Interview Tips
+            </button>
+            <button className="bg-blue-950 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition duration-300">
+              Practice Questions
+            </button>
+          </div>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-// Import the FaSearch icon from react-icons
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { FaSearch } from 'react-icons/fa';
 
 const NavBar = () => {
@@ -9,11 +9,21 @@ const NavBar = () => {
         
         {/* Navigation Links */}
         <ul className="hidden md:flex space-x-6">
-          <li className="hover:text-gray-500 cursor-pointer text-black">Home</li>
-          <li className="hover:text-gray-500 cursor-pointer text-black">Resources</li>
-          <li className="hover:text-gray-500 cursor-pointer text-black">Placement Statistics</li>
-          <li className="hover:text-gray-500 cursor-pointer text-black">Events</li>
-          <li className="hover:text-gray-500 cursor-pointer text-black">About</li>
+          <li className="hover:text-gray-500 cursor-pointer text-gray-900 text-lg">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="hover:text-gray-500 cursor-pointer text-gray-900 text-lg">
+            <Link to="/resources">Recruiters</Link> {/* Link to Resources component */}
+          </li>
+          <li className="hover:text-gray-500 cursor-pointer text-gray-900 text-lg">
+            <Link to="/placement-statistics">Calendar</Link>
+          </li>
+          <li className="hover:text-gray-500 cursor-pointer text-gray-900 text-lg">
+            <Link to="/events">Events</Link>
+          </li>
+          <li className="hover:text-gray-500 cursor-pointer text-gray-900 text-lg">
+            <Link to="/about">About</Link>
+          </li>
         </ul>
 
         {/* Search Icon and Auth Buttons */}
